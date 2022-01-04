@@ -29,7 +29,9 @@ const SingleProduct = () => {
           <p className="text-center text-xl text-gray-700 font-bold">
             {movieId?.Title}
           </p>
-          <p className="text-center text-gray-400 font-normal">{movieId?.Genre}</p>
+          <p className="text-center text-gray-400 font-normal">
+            {movieId?.Genre}
+          </p>
           <p className="p-6 text-center leading-relaxed text-gray-500 font-normal">
             {movieId?.Plot}
           </p>
