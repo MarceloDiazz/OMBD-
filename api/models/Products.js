@@ -1,9 +1,9 @@
 const S = require("sequelize");
 const db = require("../db");
 
-class Favorites extends S.Model {}
+class Products extends S.Model {}
 
-Favorites.init(
+Products.init(
   {
     name: {
       type: S.STRING,
@@ -13,7 +13,7 @@ Favorites.init(
       type: S.STRING,
     },
   },
-  { sequelize: db, modelName: "favorites" }
+  { sequelize: db, modelName: "products" }
 );
 
-module.exports = Favorites;
+module.exports = Products;
